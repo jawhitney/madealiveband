@@ -1,0 +1,102 @@
+/* line 4, ../sass/partials/_base.scss */
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: black;
+  color: black;
+}
+
+/* line 10, ../sass/partials/_base.scss */
+.panel {
+  border-radius: 0;
+  border: none;
+}
+/* line 14, ../sass/partials/_base.scss */
+.panel .panel-heading {
+  background: url("../images/vein-bg.png");
+  background-size: 1140px 38px;
+  background-color: #09b33a;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+/* line 21, ../sass/partials/_base.scss */
+.panel .panel-heading .panel-title {
+  font-weight: bold;
+}
+
+/* line 1, ../sass/partials/_banner.scss */
+#topbanner {
+  padding: 2px 0;
+  background-color: #09b33a;
+}
+
+/* line 6, ../sass/partials/_banner.scss */
+#banner {
+  position: relative;
+}
+/* line 9, ../sass/partials/_banner.scss */
+#banner #logo {
+  position: absolute;
+  top: 6%;
+  left: 3%;
+  width: 60%;
+  max-width: 675px;
+}
+/* line 16, ../sass/partials/_banner.scss */
+#banner img {
+  width: 100%;
+}
+
+/* line 1, ../sass/partials/_nav.scss */
+.navbar {
+  border-radius: 0;
+  font-weight: bold;
+}
+
+/* line 6, ../sass/partials/_nav.scss */
+.navbar-default {
+  background-color: #fff;
+  border: none;
+}
+/* line 10, ../sass/partials/_nav.scss */
+.navbar-default .navbar-nav > li > a {
+  text-transform: uppercase;
+}
+
+/* line 1, ../sass/partials/_video.scss */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  margin-bottom: 10px;
+}
+/* line 8, ../sass/partials/_video.scss */
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1, ../sass/partials/_facebook.scss */
+#fb-like-box {
+  width: 100%;
+  min-height: 590px;
+  border: 1px solid #edeff4;
+}
+
+/* line 1, ../sass/partials/_footer.scss */
+#footer {
+  padding: 10px 0;
+  background-color: #09b33a;
+}
+/* line 5, ../sass/partials/_footer.scss */
+#footer img {
+  margin-right: 10px;
+}
+/* line 10, ../sass/partials/_footer.scss */
+#footer p a {
+  color: black;
+}
